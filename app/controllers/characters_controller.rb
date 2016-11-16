@@ -24,6 +24,7 @@ class CharactersController < ApplicationController
     @character.movie_id = params[:movie_id]
     @character.actor_id = params[:actor_id]
     @character.name = params[:name]
+    @character.image_url = params[:image_url]
 
     save_status = @character.save
 
@@ -53,6 +54,7 @@ class CharactersController < ApplicationController
     @character.movie_id = params[:movie_id]
     @character.actor_id = params[:actor_id]
     @character.name = params[:name]
+    @character.image_url = params[:image_url]
 
     save_status = @character.save
 

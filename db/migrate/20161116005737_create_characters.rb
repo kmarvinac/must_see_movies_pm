@@ -4,6 +4,7 @@ class CreateCharacters < ActiveRecord::Migration
       t.integer :movie_id
       t.integer :actor_id
       t.string :name
+      t.string :image_url
 
       t.timestamps
 
