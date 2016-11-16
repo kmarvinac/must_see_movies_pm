@@ -1,6 +1,6 @@
 ActiveAdmin.register Character do
 
- permit_params :movie_id, :actor_id, :name
+ permit_params :movie_id, :actor_id, :name, :image_url
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
